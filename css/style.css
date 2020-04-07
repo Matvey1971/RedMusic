@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans';
+}
+.roof {
+    background-image: url(../img/fond-up.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color: white;
+} 
+.roof-h {
+    justify-content: space-between;
+    padding-right: 12em;
+    padding-left: 8em;
+    padding-top: 1em;
+    font-weight: 300;
+}
+.middle-roof {
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    font-weight: 300;
+    padding-bottom: 150px;
+    padding-top: 120px;
+}
+.but-h {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 2px 27px;
+}
+.but-h:hover {
+    background-color: white;
+    border: 2px solid white;
+    color: #f74c55;
+
+}
+.but-m:hover {
+    color: #404040;
+}
+.under-roof {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.u-roof-text {
+    font-weight: 300;
+}
+.u-roof {
+    padding-top: 50px;
+    padding-left: 5px;
+}
+.three-color {
+    background: linear-gradient(to right, rgb(64, 64, 64) 0%, rgb(64, 64, 64) 50%, rgb(45, 95, 59) 50%, rgb(45, 95, 59) 100%);
+}
+.service {
+    font-size: 14px;
+}
+.left-fon {
+    background-color: rgb(64, 64, 64);
+    color: white;
+    padding-left: 65px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.sevice-title {
+    font-size: 22px;
+    padding-left: 15px;
+
+}
+.s-plus {
+    position: absolute;
+    right: 45px;
+    bottom: 30px;
+}
+.plus-fond {
+    position: relative;
+}
+.plus {
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+}
+.midle-fon {
+    background-color: rgb(247, 76, 85);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.right-fon {
+    background-color: rgb(45, 95, 59);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.music {
+    background-image: url(../img/boat.png);
+    
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+.music:before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.music-text {
+    font-size: 42px;
+    font-weight: 300;
+}
+.m-text {
+    padding-bottom: 45px;
+}
+.over-footer {
+    background-image: url(../img/motley-fit.png);
+    height: 9px;
+}
+.footer {
+    padding: 30px 0;
+    margin: 0;
+    font-size: 16px;
+}
